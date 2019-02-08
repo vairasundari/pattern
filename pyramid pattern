@@ -1,0 +1,21 @@
+import java.util.*;
+public class Pattern3{
+public static void main(String[] args){
+int n,i,count,k=1,l;
+Scanner s=new Scanner(System.in);
+n=s.nextInt();
+for(i=1;i<=n;i++){
+for(l=1;l<=n-i;l++)
+System.out.print(" ");
+
+count=0;
+while(count<i){
+System.out.print(k+" ");
+k++;
+count++;
+}
+
+
+System.out.println("\n");
+}
+}}
